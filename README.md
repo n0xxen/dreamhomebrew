@@ -1,7 +1,7 @@
 # dreamhomebrew
 additional content to extend Aurora, by dream
 
-index url: https://raw.github.com/n0xxen/dreamhomebrew/master/user-n0xxen.index
+index url: https://raw.github.com/n0xxen/dreamhomebrew/user-n0xxen.index
 
 instructions to get started with the repository:
 
