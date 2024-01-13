@@ -1,5 +1,5 @@
 # dreamhomebrew
-additional content to extend Aurora, by yourname
+additional content to extend Aurora, by dream
 
 index url: https://raw.githubusercontent.com/n0xxen/dreamhomebrew/master/user-n0xxen.index
 
