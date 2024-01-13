@@ -8,6 +8,5 @@
 	</info>
 	<files>
 		<file name="file1.xml" url="https://raw.githubusercontent.com/n0xxen/dreamhomebrew/master/user-n0xxen/race-Evnir.xml" />
-		<file name="file2.xml" url="https://raw.githubusercontent.com/n0xxen/dreamhomebrew/master/user-n0xxen/file2.xml" />
 	</files>
 </index>
