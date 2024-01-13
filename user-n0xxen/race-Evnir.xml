@@ -6,7 +6,6 @@
 			<file name="race-Evnir.xml" url="https://raw.githubusercontent.com/n0xxen/dreamhomebrew/master/user-n0xxen/race-Evnir.xml" />
 		</update>
 	</info>
-	
 	<?xml version="1.0" encoding="utf-8" ?>
 <elements>
 	<info>
@@ -16,7 +15,6 @@
 			<file name="race-Evnir.xml" url=""/>
 		</update>
 	</info>
-
   <element name="Envir" type="Race" source="Homebrew" id="ID_HMBRW_RACE_EVNIR">
     <description>
       <h4>EVNIR</h4>
@@ -52,7 +50,6 @@
       <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_MENDABLE" />
     </rules>
   </element>
-  
     <element name="A Machine's Toolkit" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_ENVIR_TOOLKIT">
    	    <description>
 			<p> You gain proficiency with a set artisan's Tools of your choice.</p>
