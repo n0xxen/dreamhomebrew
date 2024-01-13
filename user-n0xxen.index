@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<index>
+	<info>
+		<name>Homebrew Content</name>
+		<update version="1.0.0">
+			<file name="user-n0xxen.index" url="https://raw.githubusercontent.com/n0xxen/dreamhomebrew/master/user-n0xxen.index" />
+		</update>
+	</info>
+	<files>
+		<file name="file1.xml" url="https://raw.githubusercontent.com/n0xxen/dreamhomebrew/master/user-n0xxen/file1.xml" />
+		<file name="file2.xml" url="https://raw.githubusercontent.com/n0xxen/dreamhomebrew/master/user-n0xxen/file2.xml" />
+	</files>
+</index>
