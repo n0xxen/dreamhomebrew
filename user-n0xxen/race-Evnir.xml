@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Envir</name>
+		<update version="1.0.0">
+			<file name="race-Evnir.xml" url="https://raw.githubusercontent.com/n0xxen/dreamhomebrew/master/user-n0xxen/race-Evnir.xml" />
+		</update>
+	</info>
+	
+	<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Evnir</name>
+		<description></description>
+	    <update version="1.0">
+			<file name="race-Evnir.xml" url=""/>
+		</update>
+	</info>
+
+  <element name="Envir" type="Race" source="Homebrew" id="ID_HMBRW_RACE_EVNIR">
+    <description>
+      <h4>EVNIR</h4>
+      <p>A race of ancient mechanical ball-jointed dolls, wound up with a huge key in their back. They tend to be non-violent, and have a deep love for adventure, though this isn't always the case.</p> 
+      <span class="feature">Ability Score Increase.</span>Your Constitution score increases by 2. Subraces give an additional ability score increase. <b>Mechanic</b>: An additional Constitution increase of 1. <b>Soldier</b>: Your Strength score increases by 1. <b>Trader</b>: Your Charisma score increases by 1. <b>Pathfinder</b>: Your Dexterity score increases by 1.<br/>
+      <span class="feature">Age.</span>Evnir are considered adults at the time of activation. They live an average of 200 years, but can last indefinitely if meticulously maintained and upgraded.<br/>
+	  <span class="feature">Alignment</span>Evnir lean towards good or neutral alignments.<br/>
+      <span class="feature">Size.</span>Evnir range from 5-6 feet in height. Average weight of 270-300 lbs. Your size is Medium.<br/>
+      <span class="feature">Speed.</span>Your base walking speed is 30 feet. In water, you have a base speed of 0, and sink.<br/>
+      <span class="feature">A Machine's Toolkit.</span>You gain proficiency with a set artisan's Tools of your choice.<br/>
+      <span class="feature">Living Construct.</span>Even though you were constructed, you are a living creature. Your creature type is both construct and humanoid. You are immune to diseases and being poisoned. You do not need to eat or breathe, but you can ingest food and drink if you wish. Instead of sleeping, an Evnir needs to wind the key that is in its back along with performing regular maintenance on their body this takes 4 hours each day. You are fully aware of your surroundings and notice approaching enemies and other events as normal. An Evnir can go a number of days without winding their key equal to their proficiency bonus, if they fail to wind their key after a number of days equal to their proficiency bonus then they fall unconscious until their key is wound back up. In addition, instead of a Wisdom (Medicine) check a Intelligence check or an Intelligence (Tinker's Tools) check is needed to stabilize you.<br/>
+      <span class="feature">Flexible.</span>You can take the Dodge action as a bonus action a number of times equal to your Dexterity modifier(minimum 1). You regain all expanded uses of this trait when you complete a long rest.<br/>
+      <span class="feature">Sounds of Gears.</span>The subtle sound of moving gears, springs and other mechanical components surround you, causing you to have disadvantage on Dexterity (Stealth) checks.<br/>
+      <span class="feature">Mendable.</span>When the mending spell is cast on you and you have 0 hit points you become stable. Alternatively, as part of the casting of mending, the caster may expend one of their spell slots, causing you to regain a number of hit points equal to 1d8 + their spellcasting ability modifier; when this is done using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.<br/>
+    </description>
+    <sheet display="false"/>
+    <supports />
+    <setters>
+      <set name="height" modifier="2d8">5'0"</set>
+      <set name="weight" modifier="2d6">270 lb.</set>
+    </setters>
+    <rules>
+      <stat name="dexterity" value="2"/>
+      <stat name="any" value="1"/>
+      <stat name="innate speed" value="30" bonus="base"/>
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <select type="Language" name="ID_LANGUAGE_AURAN" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_TOOLKIT" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_CONSTRUCT" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_FLEXIBLE" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_SOUNDS" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_MENDABLE" />
+    </rules>
+  </element>
+  
+    <element name="A Machine's Toolkit" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_ENVIR_TOOLKIT">
+   	    <description>
+			<p> You gain proficiency with a set artisan's Tools of your choice.</p>
+		</description>
+		<sheet display="false">
+			<description> You gain proficiency with a set artisan's Tools of your choice.</description>
+		</sheet>
+	</elements>
+	<element name="Living Construct" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_CONSTRUCT">
+   	    <description>
+			<p> Even though you were constructed, you are a living creature. Your creature type is both construct and humanoid. You are immune to diseases and being poisoned. You do not need to eat or breathe, but you can ingest food and drink if you wish. Instead of sleeping, an Evnir needs to wind the key that is in its back along with performing regular maintenance on their body this takes 4 hours each day. You are fully aware of your surroundings and notice approaching enemies and other events as normal. An Evnir can go a number of days without winding their key equal to their proficiency bonus, if they fail to wind their key after a number of days equal to their proficiency bonus then they fall unconscious until their key is wound back up. In addition, instead of a Wisdom (Medicine) check a Intelligence check or an Intelligence (Tinker's Tools) check is needed to stabilize you.</p>
+		</description>
+		<sheet display="false">
+			<description> Even though you were constructed, you are a living creature. Your creature type is both construct and humanoid. You are immune to diseases and being poisoned. You do not need to eat or breathe, but you can ingest food and drink if you wish. Instead of sleeping, an Evnir needs to wind the key that is in its back along with performing regular maintenance on their body this takes 4 hours each day. You are fully aware of your surroundings and notice approaching enemies and other events as normal. An Evnir can go a number of days without winding their key equal to their proficiency bonus, if they fail to wind their key after a number of days equal to their proficiency bonus then they fall unconscious until their key is wound back up. In addition, instead of a Wisdom (Medicine) check a Intelligence check or an Intelligence (Tinker's Tools) check is needed to stabilize you.</description>
+		</sheet>
+	</elements>
+	<element name="Flexible" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_FLEXIBLE">
+   	    <description>
+			<p> You can take the Dodge action as a bonus action a number of times equal to your Dexterity modifier(minimum 1). You regain all expanded uses of this trait when you complete a long rest.</p>
+		</description>
+		<sheet display="false">
+			<description> You can take the Dodge action as a bonus action a number of times equal to your Dexterity modifier(minimum 1). You regain all expanded uses of this trait when you complete a long rest.</description>
+		</sheet>
+	</elements>
+	<element name="Sounds of Gears" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_SOUNDS">
+   	    <description>
+			<p> The subtle sound of moving gears, springs and other mechanical components surround you, causing you to have disadvantage on Dexterity (Stealth) checks.</p>
+		</description>
+		<sheet display="false">
+			<description> The subtle sound of moving gears, springs and other mechanical components surround you, causing you to have disadvantage on Dexterity (Stealth) checks.</description>
+		</sheet>
+	</elements>
+	<element name="Mendable" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_TRAIT_ALECANI_MENDABLE">
+   	    <description>
+			<p> When the mending spell is cast on you and you have 0 hit points you become stable. Alternatively, as part of the casting of mending, the caster may expend one of their spell slots, causing you to regain a number of hit points equal to 1d8 + their spellcasting ability modifier; when this is done using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</p>
+		</description>
+		<sheet display="false">
+			<description> When the mending spell is cast on you and you have 0 hit points you become stable. Alternatively, as part of the casting of mending, the caster may expend one of their spell slots, causing you to regain a number of hit points equal to 1d8 + their spellcasting ability modifier; when this is done using a spell slot of 2nd level or higher, the healing increases by 1d8 for each slot level above 1st.</description>
+		</sheet>
+	</elements>
+</elements>
