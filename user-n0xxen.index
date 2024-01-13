@@ -7,6 +7,6 @@
 		</update>
 	</info>
 	<files>
-		<file name="file1.xml" url="https://raw.githubusercontent.com/n0xxen/dreamhomebrew/master/user-n0xxen/race-Evnir.xml" />
+		<file name="race-evnir1.xml" url="https://raw.githubusercontent.com/n0xxen/dreamhomebrew/master/user-n0xxen/race-Evnir.xml" />
 	</files>
 </index>
